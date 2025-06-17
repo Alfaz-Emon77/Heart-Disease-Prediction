@@ -6,6 +6,17 @@ This is a simple Streamlit web app for predicting heart disease using a trained 
 
 1. Put your trained `model_knn.pkl` and `scaler.pkl` files in this directory.
 
+import joblib
+from google.colab import files
+
+# মডেল এবং স্কেলার সেভ করা
+joblib.dump(model_kneighbors, 'model_knn.pkl')
+joblib.dump(sc, 'scaler.pkl')
+
+# ডাউনলোড করা
+files.download('model_knn.pkl')
+files.download('scaler.pkl')
+
 2. Install dependencies:
 
 ```bash
