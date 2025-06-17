@@ -5,3 +5,6 @@ scikit-learn
 matplotlib
 joblib
 #run this in cmd --------- python -m streamlit run app.py
+
+
+LIVE WEB LINK https://aue-heart-disease-prediction.streamlit.app/
